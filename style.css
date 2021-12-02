@@ -1,0 +1,63 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    width: min-content;
+    cursor: default;
+}
+.navBar {
+    background-color: white;
+    position: sticky;
+    height: min-content;
+    width: auto;
+    display: block;
+    box-shadow: 0 5px rgb(190, 78, 52);
+    top: 0;
+    margin: 0 0 90px;
+    cursor: default;
+}
+.navTab, .navTabSelected {
+    color: black;
+    position: sticky;
+    padding: 18px 16px 14px 16px;
+    width: min-content;
+    text-align: center;
+    font-weight: bold;
+    white-space: nowrap;
+    display: inline-block;
+    top: 0;
+}
+.navTabSelected {
+    background-color: rgb(190, 78, 52);
+}
+.navTab:hover {
+    background-color: rgb(245, 213, 206);
+}
+.navTabAlt {
+    padding: 8px 20px 4px 20px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+img.collage {
+    width: 520px;
+    height: 390px;
+    object-fit: cover;
+    box-shadow: 0 0 2px black;
+}
+.center {
+    margin: auto;
+    width: fit-content;
+}
+.item {
+    padding: 0 12px 50px 12px;
+    display: inline-block;
+}
+.text {
+    font-size: 20px;
+    margin: 8px 0 0 0;
+}
