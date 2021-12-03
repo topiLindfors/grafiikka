@@ -8,6 +8,9 @@ p {
     width: min-content;
     cursor: default;
 }
+#left, #right {
+    font-size: 40px;
+}
 .navBar {
     background-color: white;
     position: sticky;
@@ -34,7 +37,7 @@ p {
     background-color: rgb(190, 78, 52);
 }
 .navTab:hover {
-    background-color: rgb(245, 213, 206);
+    background-color: rgb(220, 179, 179);
 }
 .navTabAlt {
     padding: 8px 20px 4px 20px;
@@ -49,6 +52,13 @@ img.collage {
     object-fit: cover;
     box-shadow: 0 0 2px black;
 }
+img.gallery {
+    width: 141px;
+    height: 80px;
+    object-fit: cover;
+    margin-top: 1.2px;
+    opacity: 50%;
+}
 .center {
     margin: auto;
     width: fit-content;
@@ -60,4 +70,7 @@ img.collage {
 .text {
     font-size: 20px;
     margin: 8px 0 0 0;
+}
+::selection {
+    background: transparent;
 }
